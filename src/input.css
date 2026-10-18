@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 570px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 920px;
+  --breakpoint-xl: 1180px;
+  --breakpoint-xxl: 1500px;
+  --font-lato: "Lato", sans-serif;
+  --font-raleway: "Raleway", sans-serif;;
+  --font-poppins: "poppins", sans-serif;;
+  --color-green: #285a43;
+}
+
+  
+
+@utility container {
+  @apply max-w-292.5 mx-auto ;
+}
+@utility btn {
+  @apply px-12.5 py-1.5 border-2 border-white  font-lato  text-[16px] font-bold  hover:bg-green ease-in duration-300;
+}
+
+@media (min-width: 920px) {
+  .hamburger {
+    display: none !important;
+  }
+}
+
