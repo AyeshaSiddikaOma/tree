@@ -873,6 +873,18 @@
     .lg\:w-1\/2 {
       width: calc(1 / 2 * 100%);
     }
+    .lg\:w-100 {
+      width: calc(var(--spacing) * 100);
+    }
+    .lg\:w-117\.5 {
+      width: calc(var(--spacing) * 117.5);
+    }
+    .lg\:w-132\.5 {
+      width: calc(var(--spacing) * 132.5);
+    }
+    .lg\:w-148 {
+      width: calc(var(--spacing) * 148);
+    }
     .lg\:w-150\.5 {
       width: calc(var(--spacing) * 150.5);
     }
