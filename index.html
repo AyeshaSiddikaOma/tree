@@ -38,77 +38,255 @@
   </head>
   <body>
     <!-- Hero Part Start -->
-    <section
-      class="font-lato min-h-155 bg-[url(../images/bg.jpg)] bg-center bg-cover bg-no-repeat"
-    >
-      <div class="container mx-auto">
-        <!-- Menu Part Start -->
-        <div class="    top-11.25 flex justify-between items-center text-white">
+ <section class="relative">
+  <span class="absolute " style="top:50%;left:10px;cursor: pointer;"id="left">left</span>
+  <div class="frame w-[1264px]" style="overflow: hidden;">
+    <div class="slider flex  "id="slider">
+       <section
+            class="shrink-0 w-full font-lato min-h-155 bg-[url(../images/bg.jpg)] bg-center bg-cover bg-no-repeat"
+          >
+            <div class="container mx-auto">
+              <!-- Menu Part Start -->
+              <div
+                class="top-11.25 flex justify-between items-center text-white"
+              >
+                <i
+                  class="fa-solid fa-bars fa-rotate-180 block lg:hidden! text-[100px] me-3"
+                  style="color: rgb(224, 235, 232)"
+                  id="burger"
+                ></i>
+                <img src="images/logo.png" alt="logo" />
+
+                <ul
+                  class="lg:flex font-medium text-[18px] items-center gap-x-8 hidden absolute top-0 lg:top-0 lg:static bg-gray-900 w-50 py-5 text-center lg:w-auto lg:bg-transparent"
+                  id="ul"
+                >
+                  <li>
                     <i
-            class="fa-solid fa-bars fa-rotate-180 block lg:hidden! text-[100px] me-3"
-            style="color: rgb(224, 235, 232)"
-            id="burger"
-          ></i>
-          <img src="images/logo.png" alt="logo" />
-    
-          <ul
-            class="   lg:flex    font-medium text-[18px] items-center gap-x-8  hidden absolute top-0 lg:top-0 lg:static bg-gray-900 w-50 py-5 text-center lg:w-auto  lg:bg-transparent" id="ul"
+                      class="fa-solid fa-xmark lg:hidden! block absolute top-2 right-4"
+                      id="mark"
+                    ></i>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">Home</a>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">About Us</a>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">Planters</a>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+                <button class="btn mr-2">Call Us</button>
+              </div>
+              <!-- Menu Part End -->
+              <!-- Banner Part Start -->
+
+              <div class="mx-auto py-20">
+                <h1
+                  class="font-bold lg:text-[64px] text-[40px] text-white text-center"
+                >
+                  Beauty Delivered to You
+                </h1>
+                <p
+                  class="mt-5 font-18px font-medium text-white lg:w-148 w-full text-center mx-auto"
+                >
+                  Nature's beauty is just a click away with our online flower
+                  and plant shop. We offer a wide variety of flowers that will
+                  bring a touch of nature to your home!
+                </p>
+                <div class="flex justify-center mx-auto gap-x-3.5 py-10">
+                  <button class="bg-green text-white px-12.5 py-1.5">
+                    Book Now
+                  </button>
+                  <button
+                    class="btn text-white hover:bg-green ease-in duration-300"
+                  >
+                    Watch Video
+                  </button>
+                </div>
+              </div>
+
+              <!-- Banner Part End -->
+            </div>
+      </section>
+       <section
+            class="shrink-0 w-full font-lato min-h-155 bg-[url(../images/bg.jpg)] bg-center bg-cover bg-no-repeat"
           >
-          <li> <i class="fa-solid fa-xmark  lg:hidden! block absolute top-2 right-4" id="mark"></i>
-</li>
-            <li
-              class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
-            >
-              <a href="#">Home</a>
+            <div class="container mx-auto">
+              <!-- Menu Part Start -->
+              <div
+                class="top-11.25 flex justify-between items-center text-white"
+              >
+                <i
+                  class="fa-solid fa-bars fa-rotate-180 block lg:hidden! text-[100px] me-3"
+                  style="color: rgb(224, 235, 232)"
+                  id="burger"
+                ></i>
+                <img src="images/logo.png" alt="logo" />
 
-            </li>
-            <li
-              class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
-            >
-              <a href="#">About Us</a>
-            </li>
-            <li
-              class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
-            >
-              <a href="#">Planters</a>
-            </li>
-            <li
-              class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
-            >
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-          <button  class="btn mr-2">Call Us</button>
-      
+                <ul
+                  class="lg:flex font-medium text-[18px] items-center gap-x-8 hidden absolute top-0 lg:top-0 lg:static bg-gray-900 w-50 py-5 text-center lg:w-auto lg:bg-transparent"
+                  id="ul"
+                >
+                  <li>
+                    <i
+                      class="fa-solid fa-xmark lg:hidden! block absolute top-2 right-4"
+                      id="mark"
+                    ></i>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">Home</a>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">About Us</a>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">Planters</a>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+                <button class="btn mr-2">Call Us</button>
+              </div>
+              <!-- Menu Part End -->
+              <!-- Banner Part Start -->
 
-        </div>
-        <!-- Menu Part End -->
-        <!-- Banner Part Start -->
+              <div class="mx-auto py-20">
+                <h1
+                  class="font-bold lg:text-[64px] text-[40px] text-white text-center"
+                >
+                  Beauty Delivered to You
+                </h1>
+                <p
+                  class="mt-5 font-18px font-medium text-white lg:w-148 w-full text-center mx-auto"
+                >
+                  Nature's beauty is just a click away with our online flower
+                  and plant shop. We offer a wide variety of flowers that will
+                  bring a touch of nature to your home!
+                </p>
+                <div class="flex justify-center mx-auto gap-x-3.5 py-10">
+                  <button class="bg-green text-white px-12.5 py-1.5">
+                    Book Now
+                  </button>
+                  <button
+                    class="btn text-white hover:bg-green ease-in duration-300"
+                  >
+                    Watch Video
+                  </button>
+                </div>
+              </div>
 
-        <div class="mx-auto py-20">
-          <h1
-            class="font-bold lg:text-[64px] text-[40px] text-white text-center"
+              <!-- Banner Part End -->
+            </div>
+      </section>
+       <section
+            class="shrink-0 w-full font-lato min-h-155 bg-[url(../images/bg.jpg)] bg-center bg-cover bg-no-repeat"
           >
-            Beauty Delivered to You
-          </h1>
-          <p
-            class="mt-5 font-18px font-medium text-white lg:w-148 w-full text-center mx-auto"
-          >
-            Nature's beauty is just a click away with our online flower and
-            plant shop. We offer a wide variety of flowers that will bring a
-            touch of nature to your home!
-          </p>
-          <div class="flex justify-center mx-auto gap-x-3.5 py-10">
-            <button class="bg-green text-white px-12.5 py-1.5">Book Now</button>
-            <button class="btn text-white hover:bg-green ease-in duration-300">
-              Watch Video
-            </button>
-          </div>
-        </div>
+            <div class="container mx-auto">
+              <!-- Menu Part Start -->
+              <div
+                class="top-11.25 flex justify-between items-center text-white"
+              >
+                <i
+                  class="fa-solid fa-bars fa-rotate-180 block lg:hidden! text-[100px] me-3"
+                  style="color: rgb(224, 235, 232)"
+                  id="burger"
+                ></i>
+                <img src="images/logo.png" alt="logo" />
 
-        <!-- Banner Part End -->
-      </div>
-    </section>
+                <ul
+                  class="lg:flex font-medium text-[18px] items-center gap-x-8 hidden absolute top-0 lg:top-0 lg:static bg-gray-900 w-50 py-5 text-center lg:w-auto lg:bg-transparent"
+                  id="ul"
+                >
+                  <li>
+                    <i
+                      class="fa-solid fa-xmark lg:hidden! block absolute top-2 right-4"
+                      id="mark"
+                    ></i>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">Home</a>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">About Us</a>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">Planters</a>
+                  </li>
+                  <li
+                    class="relative after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-0.5 after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  >
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+                <button class="btn mr-2">Call Us</button>
+              </div>
+              <!-- Menu Part End -->
+              <!-- Banner Part Start -->
+
+              <div class="mx-auto py-20">
+                <h1
+                  class="font-bold lg:text-[64px] text-[40px] text-white text-center"
+                >
+                  Beauty Delivered to You
+                </h1>
+                <p
+                  class="mt-5 font-18px font-medium text-white lg:w-148 w-full text-center mx-auto"
+                >
+                  Nature's beauty is just a click away with our online flower
+                  and plant shop. We offer a wide variety of flowers that will
+                  bring a touch of nature to your home!
+                </p>
+                <div class="flex justify-center mx-auto gap-x-3.5 py-10">
+                  <button class="bg-green text-white px-12.5 py-1.5">
+                    Book Now
+                  </button>
+                  <button
+                    class="btn text-white hover:bg-green ease-in duration-300"
+                  >
+                    Watch Video
+                  </button>
+                </div>
+              </div>
+
+              <!-- Banner Part End -->
+            </div>
+      </section>
+    </div>
+  </div>
+    <span  class="absolute" style="right:10px; top:50%;cursor: pointer;"id="right">right</span>
+
+ </section>
+   
+       
+     
     <!-- Hero Part End -->
 
     <!-- Choose Part Start -->
@@ -116,14 +294,14 @@
       <div class="flex justify-between flex-wrap">
         <div class="">
           <h2
-            class="text-[36px] text-green font-bold lg:w-117.5 w-full leading-10 capitalize "
+            class="text-[36px] text-green font-bold lg:w-117.5 w-full leading-10 capitalize"
           >
             We Help choose the most suitable plants for you
           </h2>
         </div>
         <div class="">
           <p
-            class="text-[16px] font-medium text-#212121  lg:w-155.5 md:w-full leading-7 font-raleway"
+            class="text-[16px] font-medium text-#212121 lg:w-155.5 md:w-full leading-7 font-raleway"
           >
             Our selection includes a wide variety of flowers, from classic roses
             to exotic orchids, as well as a variety of lush indoor and outdoor
@@ -134,10 +312,9 @@
         </div>
       </div>
     </div>
-    
 
     <!-- Choose Part End -->
-     
+
     <!-- Choose Boxes Start -->
     <div class="container mt-40">
       <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
@@ -196,7 +373,6 @@
 
     <!-- Choose Boxes Ends -->
 
-
     <!-- Offer Part Start -->
     <div class="container mt-20">
       <h2 class="text-green text-[36px] font-bold font-lato text-center">
@@ -232,82 +408,87 @@
       </div>
     </div>
     <!-- Offer Part End -->
-     
-<!-- Big Part Start -->
-<div class="container mx-auto px-4 mt-10 lg:mt-20">
-  <div class="flex flex-col lg:flex-row">
-    <img src="images/big.png" class="w-full lg:w-1/2 h-auto object-cover" alt="" />
 
-    <div class="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2">
-      <!-- Card 1 -->
-      <div class="p-6 lg:p-10">
-        <img src="images/icon.png" alt="icon" />
-        <h4 class="text-green font-bold py-2.5 text-[16px] font-raleway">
-          Quality Product
-        </h4>
-        <p class="max-w-xs text-[16px] text-[#212121] font-raleway">
-          Our flowers are of the highest quality, carefully selected and
-          sourced from reputable
-        </p>
-      </div>
+    <!-- Big Part Start -->
+    <div class="container mx-auto px-4 mt-10 lg:mt-20">
+      <div class="flex flex-col lg:flex-row">
+        <img
+          src="images/big.png"
+          class="w-full lg:w-1/2 h-auto object-cover"
+          alt=""
+        />
 
-      <!-- Card 2 -->
-      <div class="bg-[#F8F8F8] p-6 lg:p-10">
-        <img src="images/icon2.png" alt="icon" />
-        <h4 class="text-green font-bold py-2.5 text-[16px] font-raleway">
-          Quality Product
-        </h4>
-        <p class="max-w-xs text-[16px] text-[#212121] font-raleway">
-          Our flowers are of the highest quality, carefully selected and
-          sourced from reputable
-        </p>
-      </div>
+        <div class="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2">
+          <!-- Card 1 -->
+          <div class="p-6 lg:p-10">
+            <img src="images/icon.png" alt="icon" />
+            <h4 class="text-green font-bold py-2.5 text-[16px] font-raleway">
+              Quality Product
+            </h4>
+            <p class="max-w-xs text-[16px] text-[#212121] font-raleway">
+              Our flowers are of the highest quality, carefully selected and
+              sourced from reputable
+            </p>
+          </div>
 
-      <!-- Card 3 -->
-      <div class="p-6 lg:p-10 sm:bg-[#F8F8F8]">
-        <img src="images/icon3.png" alt="icon" />
-        <h4 class="text-green font-bold py-2.5 text-[16px] font-raleway">
-          Quality Product
-        </h4>
-        <p class="max-w-xs text-[16px] text-[#212121] font-raleway">
-          Our flowers are of the highest quality, carefully selected and
-          sourced from reputable
-        </p>
-      </div>
+          <!-- Card 2 -->
+          <div class="bg-[#F8F8F8] p-6 lg:p-10">
+            <img src="images/icon2.png" alt="icon" />
+            <h4 class="text-green font-bold py-2.5 text-[16px] font-raleway">
+              Quality Product
+            </h4>
+            <p class="max-w-xs text-[16px] text-[#212121] font-raleway">
+              Our flowers are of the highest quality, carefully selected and
+              sourced from reputable
+            </p>
+          </div>
 
-      <!-- Card 4 -->
-      <div class="bg-[#F8F8F8] sm:bg-transparent p-6 lg:p-10">
-        <img src="images/icon4.png" alt="icon" />
-        <h4 class="text-green font-bold py-2.5 text-[16px] font-raleway">
-          Quality Product
-        </h4>
-        <p class="max-w-xs text-[16px] text-[#212121] font-raleway">
-          Our flowers are of the highest quality, carefully selected and
-          sourced from reputable
-        </p>
+          <!-- Card 3 -->
+          <div class="p-6 lg:p-10 sm:bg-[#F8F8F8]">
+            <img src="images/icon3.png" alt="icon" />
+            <h4 class="text-green font-bold py-2.5 text-[16px] font-raleway">
+              Quality Product
+            </h4>
+            <p class="max-w-xs text-[16px] text-[#212121] font-raleway">
+              Our flowers are of the highest quality, carefully selected and
+              sourced from reputable
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-[#F8F8F8] sm:bg-transparent p-6 lg:p-10">
+            <img src="images/icon4.png" alt="icon" />
+            <h4 class="text-green font-bold py-2.5 text-[16px] font-raleway">
+              Quality Product
+            </h4>
+            <p class="max-w-xs text-[16px] text-[#212121] font-raleway">
+              Our flowers are of the highest quality, carefully selected and
+              sourced from reputable
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- Big Part End -->
- 
-    
+    <!-- Big Part End -->
 
     <!-- Gallery Part Start -->
-    <div class="container  mt-30">
+    <div class="container mt-30">
       <h2 class="text-green text-[36px] font-bold font-lato text-center">
         Our Gallery View
       </h2>
-      <div class="lg:flex-row  flex flex-col mt-15 gap-1.5">
+      <div class="lg:flex-row flex flex-col mt-15 gap-1.5">
         <div
-          class=" w-1/3 mx-auto  bg-[url(../images/galleryBig.png)] bg-center bg-cover bg-no-repeat"
+          class="w-1/3 mx-auto bg-[url(../images/galleryBig.png)] bg-center bg-cover bg-no-repeat"
         >
-        <img  src="images/galleryBig.png" class="block  lg:hidden" alt="galleryBig.png">
-      </div>
+          <img
+            src="images/galleryBig.png"
+            class="block lg:hidden"
+            alt="galleryBig.png"
+          />
+        </div>
         <div class="flex flex-col gap-y-1">
           <img src="images/gallerySmall.png" alt="galleryBig.png" />
           <img src="images/gallerySmall2.png" alt="galleryBig.png" />
-          
         </div>
         <div class="flex flex-col gap-y-1">
           <img src="images/gallerySmall3.png" alt="galleryBig.png" />
@@ -319,15 +500,12 @@
 
     <!-- Testymony Part Start -->
     <div class="container mt-20">
-      <h2 class="text-green text-[36px]  font-bold font-lato text-center">
+      <h2 class="text-green text-[36px] font-bold font-lato text-center">
         What do they say about us
       </h2>
-      <div class="flex justify-between  flex-wrap  mt-10 gap-7">
-
-
-
+      <div class="flex justify-between flex-wrap mt-10 gap-7">
         <div
-          class="mx-auto  w-92.75 bg-[url(../images/Testimonial.png)] bg-center bg-cover bg-no-repeat p-6"
+          class="mx-auto w-92.75 bg-[url(../images/Testimonial.png)] bg-center bg-cover bg-no-repeat p-6"
         >
           <div class="flex items-center gap-x-5 py-5">
             <img src="images/man.png" alt="man.png" />
@@ -343,10 +521,8 @@
           </p>
         </div>
 
-
-
         <div
-          class="mx-auto w-92.75 bg-[url(../images/Testimonial.png)]   bg-center bg-cover bg-no-repeat p-6"
+          class="mx-auto w-92.75 bg-[url(../images/Testimonial.png)] bg-center bg-cover bg-no-repeat p-6"
         >
           <div class="flex items-center gap-x-5 py-3">
             <img src="images/man.png" alt="man.png" />
@@ -362,10 +538,8 @@
           </p>
         </div>
 
-
-
         <div
-          class="   mx-auto w-92.75  bg-[url(../images/Testimonial.png)] bg-center  bg-cover bg-no-repeat p-6"
+          class="mx-auto w-92.75 bg-[url(../images/Testimonial.png)] bg-center bg-cover bg-no-repeat p-6"
         >
           <div class="flex items-center gap-x-5 py-3">
             <img src="images/man.png" alt="man.png" />
@@ -383,116 +557,140 @@
       </div>
     </div>
     <!-- Testymony Part End -->
-     
+
     <!-- Email Part Start -->
     <section
       class="bg-[url(../images/garden.png)] bg-center bg-cover bg-no-repeat py-20 mt-30"
     >
       <div class="container text-white">
-        <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1  items-center">
-          <h3 class="text-white text-[32px] font-bold  font=-lato lg:w-132.5 w-full">
+        <div
+          class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 items-center"
+        >
+          <h3
+            class="text-white text-[32px] font-bold font=-lato lg:w-132.5 w-full"
+          >
             Enter your email address for our mailing Promo or other interesting
             things
           </h3>
-          <div class="flex flex-wrap  gap-1.5">
+          <div class="flex flex-wrap gap-1.5">
             <input
               type="text   "
               placeholder="Enter Your Email "
-              class="border-2 pl-2  border-[#D9D9D9] py-0.5 lg:w-100 w-full  "
+              class="border-2 pl-2 border-[#D9D9D9] py-0.5 lg:w-100 w-full"
             />
-            <button class="btn bg-green lg:w-auto  w-full text-white border-none">Submit</button>
+            <button
+              class="btn bg-green lg:w-auto w-full text-white border-none"
+            >
+              Submit
+            </button>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Email Part End -->
-     
-<!-- Blog Part Start -->
-<div class="container mx-auto px-4 mt-16 lg:mt-30">
-  <h2 class="text-green text-[24px] sm:text-[30px] lg:text-[36px] font-bold font-lato text-center">
-    Interesting blog to read
-  </h2>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 lg:mt-15 gap-x-10 gap-y-10">
-    <!-- Blog 1 -->
-    <div class="card">
-      <img src="images/blog.png" alt="blog.png" class="w-full h-auto" />
-      <h4 class="text-green font-bold py-2.5 text-[18px] lg:text-[20px] font-raleway">
-        More productive with an atmosphere of greenery
-      </h4>
-      <p class="text-[#121212] font-raleway max-w-sm">
-        An atmosphere of greenery can increase productivity in the
-        workplace. Studies show that plants improve air quality and decrease
-        stress...
-      </p>
-      <div class="flex flex-wrap items-center justify-between gap-y-2 py-4">
-        <div class="flex items-center gap-x-2">
-          <img src="images/calender.png" alt="calender.png" width="50" />
-          <span>January 20, 2023</span>
-        </div>
-        <div class="flex items-center gap-x-2">
-          <h4 class="text-green font-bold text-[18px] lg:text-[20px] font-raleway">
-            Read More
+    <!-- Blog Part Start -->
+    <div class="container mx-auto px-4 mt-16 lg:mt-30">
+      <h2
+        class="text-green text-[24px] sm:text-[30px] lg:text-[36px] font-bold font-lato text-center"
+      >
+        Interesting blog to read
+      </h2>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 lg:mt-15 gap-x-10 gap-y-10"
+      >
+        <!-- Blog 1 -->
+        <div class="card">
+          <img src="images/blog.png" alt="blog.png" class="w-full h-auto" />
+          <h4
+            class="text-green font-bold py-2.5 text-[18px] lg:text-[20px] font-raleway"
+          >
+            More productive with an atmosphere of greenery
           </h4>
-          <img src="images/arrow.png" alt="arrow.png" />
+          <p class="text-[#121212] font-raleway max-w-sm">
+            An atmosphere of greenery can increase productivity in the
+            workplace. Studies show that plants improve air quality and decrease
+            stress...
+          </p>
+          <div class="flex flex-wrap items-center justify-between gap-y-2 py-4">
+            <div class="flex items-center gap-x-2">
+              <img src="images/calender.png" alt="calender.png" width="50" />
+              <span>January 20, 2023</span>
+            </div>
+            <div class="flex items-center gap-x-2">
+              <h4
+                class="text-green font-bold text-[18px] lg:text-[20px] font-raleway"
+              >
+                Read More
+              </h4>
+              <img src="images/arrow.png" alt="arrow.png" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog 2 -->
+        <div class="card">
+          <img src="images/blog2.png" alt="blog.png" class="w-full h-auto" />
+          <h4
+            class="text-green font-bold py-2.5 text-[18px] lg:text-[20px] font-raleway"
+          >
+            More productive with an atmosphere of greenery
+          </h4>
+          <p class="text-[#121212] font-raleway max-w-sm">
+            An atmosphere of greenery can increase productivity in the
+            workplace. Studies show that plants improve air quality and decrease
+            stress...
+          </p>
+          <div class="flex flex-wrap items-center justify-between gap-y-2 py-4">
+            <div class="flex items-center gap-x-2">
+              <img src="images/calender.png" alt="calender.png" width="50" />
+              <span>January 20, 2023</span>
+            </div>
+            <div class="flex items-center gap-x-2">
+              <h4
+                class="text-green font-bold text-[18px] lg:text-[20px] font-raleway"
+              >
+                Read More
+              </h4>
+              <img src="images/arrow.png" alt="arrow.png" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="card">
+          <img src="images/blog3.png" alt="blog.png" class="w-full h-auto" />
+          <h4
+            class="text-green font-bold py-2.5 text-[18px] lg:text-[20px] font-raleway"
+          >
+            More productive with an atmosphere of greenery
+          </h4>
+          <p class="text-[#121212] font-raleway max-w-sm">
+            An atmosphere of greenery can increase productivity in the
+            workplace. Studies show that plants improve air quality and decrease
+            stress...
+          </p>
+          <div class="flex flex-wrap items-center justify-between gap-y-2 py-4">
+            <div class="flex items-center gap-x-2">
+              <img src="images/calender.png" alt="calender.png" width="50" />
+              <span>January 20, 2023</span>
+            </div>
+            <div class="flex items-center gap-x-2">
+              <h4
+                class="text-green font-bold text-[18px] lg:text-[20px] font-raleway"
+              >
+                Read More
+              </h4>
+              <img src="images/arrow.png" alt="arrow.png" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <!-- Blog Part End -->
 
-    <!-- Blog 2 -->
-    <div class="card">
-      <img src="images/blog2.png" alt="blog.png" class="w-full h-auto" />
-      <h4 class="text-green font-bold py-2.5 text-[18px] lg:text-[20px] font-raleway">
-        More productive with an atmosphere of greenery
-      </h4>
-      <p class="text-[#121212] font-raleway max-w-sm">
-        An atmosphere of greenery can increase productivity in the
-        workplace. Studies show that plants improve air quality and decrease
-        stress...
-      </p>
-      <div class="flex flex-wrap items-center justify-between gap-y-2 py-4">
-        <div class="flex items-center gap-x-2">
-          <img src="images/calender.png" alt="calender.png" width="50" />
-          <span>January 20, 2023</span>
-        </div>
-        <div class="flex items-center gap-x-2">
-          <h4 class="text-green font-bold text-[18px] lg:text-[20px] font-raleway">
-            Read More
-          </h4>
-          <img src="images/arrow.png" alt="arrow.png" />
-        </div>
-      </div>
-    </div>
-
-    <!-- Blog 3 -->
-    <div class="card">
-      <img src="images/blog3.png" alt="blog.png" class="w-full h-auto" />
-      <h4 class="text-green font-bold py-2.5 text-[18px] lg:text-[20px] font-raleway">
-        More productive with an atmosphere of greenery
-      </h4>
-      <p class="text-[#121212] font-raleway max-w-sm">
-        An atmosphere of greenery can increase productivity in the
-        workplace. Studies show that plants improve air quality and decrease
-        stress...
-      </p>
-      <div class="flex flex-wrap items-center justify-between gap-y-2 py-4">
-        <div class="flex items-center gap-x-2">
-          <img src="images/calender.png" alt="calender.png" width="50" />
-          <span>January 20, 2023</span>
-        </div>
-        <div class="flex items-center gap-x-2">
-          <h4 class="text-green font-bold text-[18px] lg:text-[20px] font-raleway">
-            Read More
-          </h4>
-          <img src="images/arrow.png" alt="arrow.png" />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Blog Part End -->
- 
     <!-- Footer Part Start -->
     <section
       class="bg-[url(../images/footer.png)] bg-center bg-cover bg-no-repeat mt-20"
