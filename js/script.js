@@ -14,7 +14,7 @@ ul.style.display = "none"
 let left = document.querySelector('#left')
 let right = document.querySelector('#right')
 let slider = document.querySelector('#slider')
-let num = 0;
+let num = 1;
 let pic = document.querySelectorAll('.pic')
 
 function oma (){
@@ -31,7 +31,7 @@ oma()
 }
 else{
 slider.style.transform = `translateX(0px)`;
-num=0;
+num=1;
     
 
 }
