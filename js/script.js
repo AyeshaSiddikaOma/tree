@@ -14,5 +14,33 @@ ul.style.display = "none"
 let left = document.querySelector('#left')
 let right = document.querySelector('#right')
 let slider = document.querySelector('#slider')
+let num = 0;
+let pic = document.querySelectorAll('.pic')
+
+function oma (){
+slider.style.transform = `translateX(${num*-100}%)`;
+num++
+}
 
 
+
+
+right.addEventListener('click',()=>{
+if(num  < pic.length){
+oma()
+}
+else{
+slider.style.transform = `translateX(0px)`;
+num=0;
+    
+
+}
+})
+
+
+
+    
+
+// left.addEventListener('click',()=>{
+//     console.log("hello world")
+// })

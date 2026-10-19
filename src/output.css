@@ -22,6 +22,7 @@
     --radius-2xl: 1rem;
     --radius-3xl: 1.5rem;
     --ease-in: cubic-bezier(0.4, 0, 1, 1);
+    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -308,11 +309,17 @@
   .w-92\.75 {
     width: calc(var(--spacing) * 92.75);
   }
+  .w-316 {
+    width: calc(var(--spacing) * 316);
+  }
   .w-\[2\] {
     width: 2;
   }
   .w-\[120px\] {
     width: 120px;
+  }
+  .w-\[126px\] {
+    width: 126px;
   }
   .w-\[292\.5px\] {
     width: 292.5px;
@@ -334,6 +341,9 @@
   }
   .w-\[1260px\] {
     width: 1260px;
+  }
+  .w-\[1263px\] {
+    width: 1263px;
   }
   .w-\[1264px\] {
     width: 1264px;
@@ -493,11 +503,26 @@
   .bg-\[url\(\.\.\/images\/bg\.jpg\)\] {
     background-image: url(../images/bg.jpg);
   }
+  .bg-\[url\(\.\.\/images\/bg2\.jpg\)\] {
+    background-image: url(../images/bg2.jpg);
+  }
+  .bg-\[url\(\.\.\/images\/bg2\.png\)\] {
+    background-image: url(../images/bg2.png);
+  }
   .bg-\[url\(\.\.\/images\/footer\.png\)\] {
     background-image: url(../images/footer.png);
   }
   .bg-\[url\(\.\.\/images\/galleryBig\.png\)\] {
     background-image: url(../images/galleryBig.png);
+  }
+  .bg-\[url\(\.\.\/images\/garden\.\)\] {
+    background-image: url(../images/garden.);
+  }
+  .bg-\[url\(\.\.\/images\/garden\.jpg\)\] {
+    background-image: url(../images/garden.jpg);
+  }
+  .bg-\[url\(\.\.\/images\/garden\.pmg\)\] {
+    background-image: url(../images/garden.pmg);
   }
   .bg-\[url\(\.\.\/images\/garden\.png\)\] {
     background-image: url(../images/garden.png);
@@ -654,13 +679,26 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .transition-transform {
+    transition-property: transform, translate, scale, rotate;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
   .duration-300 {
     --tw-duration: 300ms;
     transition-duration: 300ms;
   }
+  .duration-500 {
+    --tw-duration: 500ms;
+    transition-duration: 500ms;
+  }
   .ease-in {
     --tw-ease: var(--ease-in);
     transition-timing-function: var(--ease-in);
+  }
+  .ease-in-out {
+    --tw-ease: var(--ease-in-out);
+    transition-timing-function: var(--ease-in-out);
   }
   @media (hover: hover) {
     .group-hover\:text-white:is(:where(.group):hover *) {
